@@ -3,7 +3,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-const BASE_URL = 'https://quotes.toscrape.com/'; // Example URL for jobs
+const BASE_URL = 'https://quotes.toscrape.com/'; // Example URL for quotes
 
 async function scrapeQuotes() {
   try {
